@@ -1,13 +1,12 @@
-#!/usr/bin/python3
-'''Class Integral of BaseModel'''
+"""Inteprets the Amenity class."""
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    '''class amenity'''
+    """Represent an amenity.
+
+    Attributes:
+        name (str): The name of the amenity.
+    """
 
     name = ""
-
-    def __init__(self, *args, **kwargs):
-        """initializes Amenity"""
-        super().__init__(*args, **kwargs)
